@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "lclient",
+  "version": "${version}",
+  "name": "L Client",
+  "description": "L Client - basehunting client with Meteor Client, DupersUnited and UI Utils built in.",
+  "authors": ["L"],
+  "license": "GPL-3.0-or-later",
+  "environment": "client",
+  "entrypoints": { "client": ["com.lclient.LClient"] },
+  "mixins": ["lclient.mixins.json"],
+  "jars": [
+    { "file": "META-INF/jars/meteor-client-1.21.11-86.jar" },
+    { "file": "META-INF/jars/dupersunited-1.0.4-1.21.11.jar" },
+    { "file": "META-INF/jars/ui_utils-1.0.2-1.21.11.jar" }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

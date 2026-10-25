@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.lclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ClientPlayNetworkHandlerMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
